@@ -16,5 +16,10 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    
+   	<style name="ActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+    	<item name="android:background">@android:color/transparent</item>
+    	<item name="android:actionBarTabStyle">@style/ActionBarTabStyle</item>
+	</style>
 
 </resources>
